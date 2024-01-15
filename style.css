@@ -11,8 +11,11 @@ html {
 }
 body {
   background: #000;
-  padding: 2rem 2rem;
   box-sizing: border-box;
+}
+
+main {
+  padding: 2rem 2rem;
 }
 
 .header {
@@ -137,4 +140,83 @@ header h2 {
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   margin-top: 4rem;
+}
+
+.resume p {
+  text-align: center;
+}
+
+.resume button {
+  /* margin-left: 30rem; */
+  margin-top: 4rem;
+  background-image: linear-gradient(to right, #000, #000);
+  border-radius: 0.4rem;
+  box-shadow: 1px 1px 6px #000, inset -3px -3px 5px rgb(73, 73, 73);
+  padding: 0.8rem 6rem;
+  color: #fff;
+  border: 1px solid rgb(185, 185, 185);
+  cursor: pointer;
+  /* transition: all 1s; */
+  box-sizing: border-box;
+}
+
+.contact {
+  margin-top: 5rem;
+}
+
+.params {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+fieldset p {
+  color: #fff;
+  text-align: center;
+}
+
+fieldset {
+  border-radius: 1rem;
+}
+
+
+.contactParagraph p{
+  color: #fff;
+}
+
+legend {
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer {
+  padding: 1rem;
+  background: rgb(31, 31, 31);
+}
+
+footer p{
+  color: gray;
+  text-align: center;
+}
+
+footer a {
+  text-align: center;
+}
+/* 346star3starnin */
+/* 85504054593*292968# */
+
+@media (max-width:1000px) {
+  .headerContainer {
+    grid-template-columns: 100%;
+  }
+
+  .headerIntroduction h1 {
+    text-align: center;
+  }
+
+  .firstBatch, .secondBatch {
+    grid-template-columns: 100%;
+  }
 }
